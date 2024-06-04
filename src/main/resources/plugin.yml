@@ -3,3 +3,23 @@ version: '${version}'
 main: de.galaxycb.jobs.Main
 api-version: '1.20'
 website: galaxycb.de
+
+commands:
+  jobs:
+
+permissions:
+  job.miner:
+    description: allows the player to use benefits of the job miner
+    default: false
+
+  job.digger:
+    description: the player to use benefits of the job digger
+    default: false
+
+  job.farmer:
+    description: allows the player to use benefits of the job farmer
+    default: false
+
+  job.lumberjack:
+    description: allows the player to use benefits of the job lumberjack
+    default: false
