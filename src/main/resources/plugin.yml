@@ -1,0 +1,5 @@
+name: Jobs
+version: '${version}'
+main: de.galaxycb.jobs.Main
+api-version: '1.20'
+website: galaxycb.de
