@@ -15,7 +15,7 @@ public class InventoryListener implements Listener {
 
     private static Main plugin;
 
-    public InventoryListener() {
+    public InventoryListener(Main plugin) {
         this.plugin = plugin;
     }
 
