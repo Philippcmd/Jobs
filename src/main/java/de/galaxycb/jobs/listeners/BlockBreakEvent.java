@@ -1,5 +1,6 @@
 package de.galaxycb.jobs.listeners;
 
+import de.galaxycb.jobs.Main;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
@@ -7,6 +8,13 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 
 public class BlockBreakEvent implements Listener {
+
+    private static Main plugin;
+
+    public BlockBreakEvent(Main plugin) {
+        this.plugin = plugin;
+    }
+
     @EventHandler
     public void onBlockBreak(org.bukkit.event.block.BlockBreakEvent event) {
 
